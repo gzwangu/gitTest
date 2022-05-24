@@ -1,3 +1,7 @@
-威锋网dw
+i = 5
 
-wee
+def f(arg=i):
+    print(arg)
+
+i = 6
+f()
